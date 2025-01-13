@@ -16,9 +16,8 @@
 * **Controle de estoque:** Método PEPS, definição de estoque mínimo e máximo.
 * **Entradas e saídas:** Compra, venda, transferência, devolução.
 
-### 4. Fornecedores e Clientes
+### 4. Fornecedores 
 * **Fornecedores:** Nome da empresa, histórico de compras.
-* **Clientes:** Não especificado no texto original.
 
 ### 5. Vendas e Pedidos
 * **Pedidos:** Registro de pedidos, classificação por tipo (normal, especial), acompanhamento do status.
