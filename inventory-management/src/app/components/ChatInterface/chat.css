@@ -1,0 +1,82 @@
+div #talk-area {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(22, 22, 197);
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+
+}
+
+div #talk-area input {
+    width: 40%;
+    height: 60%;
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    padding-left: 1em;
+}
+
+div #talk-area input,
+button {
+    margin-top: 0.5em;
+}
+
+div #talk-area button {
+    margin-left: 1em;
+    width: 8em;
+    height: 60%;
+    background-color: green;
+    border: none;
+    border-radius: 0.8em;
+}
+
+#content {
+    width: 100lvw;
+    height: 93lvh;
+}
+
+#text-title-banner {
+    text-align: center;
+}
+
+#chat-rolling {
+    height: 73%;
+    overflow: auto;
+    padding-bottom: 3em;
+}
+
+#message-ia {
+    padding-bottom: 2em;
+}
+
+#models-ia {
+    height: 5em;
+    border-bottom: #ccc 2px solid;
+}
+
+/* Estilo base para o menu */
+.modelos-menu {
+    display: none;
+    /* Inicialmente escondido */
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#modelos-menu {
+    display: none;
+    background: #090909;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+}
+
+#models-ia.mostrar #modelos-menu {
+    display: block;
+}
