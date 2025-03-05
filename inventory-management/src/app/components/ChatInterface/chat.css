@@ -23,15 +23,6 @@ button {
     margin-top: 0.5em;
 }
 
-div #talk-area button {
-    margin-left: 1em;
-    width: 8em;
-    height: 60%;
-    background-color: green;
-    border: none;
-    border-radius: 0.8em;
-}
-
 #content {
     width: 100lvw;
     height: 93lvh;
@@ -80,3 +71,38 @@ div #talk-area button {
 #models-ia.mostrar #modelos-menu {
     display: block;
 }
+
+#button-models {
+    width: 9em;
+    background-color: darkgreen;
+    border:none;
+    border-radius:0.5em;
+}
+
+#models-ia {
+    padding:1em;
+}
+
+div #talk-area #send-for-IA {
+    width: 8em;
+    height: 3em;
+    background-color: #29bb50;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 0px #1a6918;
+    transition: all 0.2s ease-in-out;
+    margin-left: 1em;
+}
+
+#send-for-IA:hover {
+    background-color: #17aa3c;
+    box-shadow: 0px 2px 0px #215412;
+    transform: translateY(0.2em);
+}
+

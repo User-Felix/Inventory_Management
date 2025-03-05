@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const CHAVE_DE_API = process.env.NEXT_PUBLIC_GOOGLE_API_KEY || "";
+const CHAVE_DE_API = process.env.NEXT_PUBLIC_GOOGLE_API_KEY || "AIzaSyBns6GpyJiAoPeiNdQCtF6xJNU311DvEMs";
 const genAI = new GoogleGenerativeAI(CHAVE_DE_API);
 
 // Função para listar modelos suportados

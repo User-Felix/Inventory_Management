@@ -49,7 +49,7 @@ const ChatInterface = () => {
     <div id="content">
       <h1 id="text-title-banner">Interface de Conversação com IA</h1>
       <div id="models-ia">
-        <button id="button" onClick={handleSelecionarModelo}>Escolher Modelo</button>
+        <button id="button-models" onClick={handleSelecionarModelo}>Escolher Modelo</button>
         {mostrarModelos && (
           <div id="modelos-menu">
             <h2>Modelos Suportados:</h2>
@@ -81,7 +81,12 @@ const ChatInterface = () => {
           onChange={(e) => setMensagem(e.target.value)}
           placeholder="Digite sua mensagem..."
         />
-        <button onClick={handleConversar}>Enviar</button>
+        <button id="send-for-IA" onClick={handleConversar}>
+          <span id="shadow"></span>
+          <span id="edge"></span>
+          <span id="front">Enviar
+          </span>
+        </button>
       </div>      
     </div>
   );

@@ -1,11 +1,11 @@
 import Header from "./components/Header/main";
-import styles from "./page.module.css";
+import Home from "./pages/Home/page";
 
 export default function App() {
   return (
-    <div className={styles.page}>
+    <div>
       <Header/>
-      <p>Text</p>
+      <Home/>
     </div>
   );
 }
